@@ -2,7 +2,7 @@
 FROM node:alpine AS my-app-build
 WORKDIR /app
 COPY . .
-RUN npm ci && npm run build --prod
+RUN npm ci && npm run build --prod --base-href /
 
 # Stage 2: Serve the application using Nginx
 FROM nginx:alpine
