@@ -1,0 +1,7 @@
+.pokedex {
+    background-image: url('/assets/fondoPokedex.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }

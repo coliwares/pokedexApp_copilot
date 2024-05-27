@@ -1,0 +1,12 @@
+<!-- buscador-component.component.html -->
+<div class="pokedex">
+    <form (submit)="searchPokemon()">
+        <input [(ngModel)]="search" name="search" placeholder="Enter Pokemon ID or Name">
+        <button type="submit">Search</button>
+    </form>
+
+    <div *ngIf="pokemon">
+        <h2>{{ pokemon.name }}</h2>
+        <img [src]="pokemon.sprites.front_default" alt="{{ pokemon.name }}">
+    </div>
+</div>

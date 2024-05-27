@@ -1,0 +1,52 @@
+/* buscador-component.component.css */
+body {
+    background-color: #f00;
+    font-family: 'Arial', sans-serif;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+button {
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #007BFF;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+/* buscador-component.component.css */
+img {
+    width: 200px;  /* Adjust this value to your desired size */
+    height: auto;
+}
